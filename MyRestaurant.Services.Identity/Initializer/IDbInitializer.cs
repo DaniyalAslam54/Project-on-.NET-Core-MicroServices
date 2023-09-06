@@ -1,0 +1,7 @@
+﻿namespace MyRestaurant.Services.Identity.Initializer
+{
+	public interface IDbInitializer
+	{
+		public void Initialize();
+	}
+}

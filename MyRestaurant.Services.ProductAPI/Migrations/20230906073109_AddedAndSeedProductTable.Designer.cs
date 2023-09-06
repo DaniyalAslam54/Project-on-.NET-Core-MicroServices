@@ -11,8 +11,8 @@ using MyRestaurant.Web.DbContexts;
 namespace MyRestaurant.Services.ProductAPI.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20230905073402_SeedProducts")]
-    partial class SeedProducts
+    [Migration("20230906073109_AddedAndSeedProductTable")]
+    partial class AddedAndSeedProductTable
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
